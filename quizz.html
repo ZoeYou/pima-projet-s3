@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>QUIZ</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/quizz.css"/>
+	<!--<link rel="stylesheet" type="text/css" href="./css/reset.css"/>-->
+	<script type="text/javascript" src="./js/rem.js" ></script>
+	<script type="text/javascript" src="./js/jquery.min.js" ></script>
+</head>
+<body>
+
+<div class="nav">
+	<button class="giveup button white" onclick="return_home()">Return to home page</button>
+
+	<span class="ms">
+		MOVIE STAR
+	</span>
+
+	<div class="setTimer">
+		<span id="timer">00:00:00</span>
+		<button class="button button black" id="hide" onclick="hide()">HIDE TIME</button>
+	</div>
+
+	<button class="sub button white bigrounded" onclick="submit(score, document.getElementById('timer').innerText)">SUBMIT</button>
+</div>
+
+<div class="main">
+	<div class="topic">
+		<div class="entrance-bottom">
+			<div class="topic-frameli"></div>
+			<div class="entrance-bottom-frame clearfix"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+<script src="js/quizz.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/nav.js" type="text/javascript" charset="UTF-8"></script>
+
+</html>
